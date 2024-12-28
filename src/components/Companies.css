@@ -1,0 +1,50 @@
+/* Companies Container */
+.companies-container {
+    max-height: 100vh;
+    /* Set maximum height to the viewport height */
+    overflow-y: auto;
+    /* Enable vertical scrolling if content exceeds the height */
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1;
+}
+
+/* Title */
+.companies-container h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+/* List of Companies */
+.companies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Individual Company Card */
+.company-card {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-card p {
+    text-align: left;
+}
+
+.company-card h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.company-card p {
+    font-size: 1rem;
+    color: #555;
+}

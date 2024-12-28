@@ -1,0 +1,25 @@
+.company-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.company-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.company-detail p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.company-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company-detail ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}

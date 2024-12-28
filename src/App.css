@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* Prevent horizontal overflow */
+}
+
+/* Container */
+div {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.main-content {
+  margin-top: 100px;
+  padding: 1rem;
+}
+
+/* Welcome Container Styles */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Title Styling */
+.welcome-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Subtitle/Description Styling */
+.welcome-container p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Links and Buttons */
+p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+p button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p button:hover {
+  color: #0056b3;
+}
+
+/* Routes Container */
+.routes-container {
+  margin-top: 2rem;
+}

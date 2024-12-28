@@ -1,0 +1,15 @@
+.job-detail {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.job-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.job-detail p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
